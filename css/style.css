@@ -5,3 +5,76 @@
 * {
   box-sizing: border-box;
 }
+
+/* line 8, ../sass/style.sass */
+body {
+  margin: 0 0;
+}
+
+/* line 11, ../sass/style.sass */
+.under_menu {
+  height: 45px;
+  width: 100%;
+  background: #6E6E6E;
+  font-family: "Roboto Reg";
+}
+/* line 16, ../sass/style.sass */
+.under_menu div {
+  line-height: 45px;
+  height: 45px;
+  float: left;
+}
+/* line 20, ../sass/style.sass */
+.under_menu div:nth-child(1) {
+  margin-left: 14.4%;
+}
+/* line 22, ../sass/style.sass */
+.under_menu div:nth-child(2) {
+  margin-left: 10.13%;
+}
+/* line 24, ../sass/style.sass */
+.under_menu div:nth-child(3) {
+  margin-left: 15.55%;
+}
+/* line 26, ../sass/style.sass */
+.under_menu div:nth-child(4) {
+  margin-left: 9.8%;
+  color: #ffffff;
+  padding-top: 8px;
+}
+/* line 30, ../sass/style.sass */
+.under_menu div:nth-child(4) span {
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  float: left;
+  height: 27px;
+  line-height: 27px;
+  padding-left: 7px;
+  padding-right: 2px;
+}
+/* line 38, ../sass/style.sass */
+.under_menu div:nth-child(4) span svg {
+  margin-left: 8px;
+  width: 1.1vw;
+  height: 25px;
+  float: right;
+}
+/* line 43, ../sass/style.sass */
+.under_menu div a {
+  color: #ffffff;
+  font-size: 0.92vw;
+  text-decoration: none;
+  display: inline-block;
+}
+/* line 48, ../sass/style.sass */
+.under_menu div a span {
+  height: 45px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 52, ../sass/style.sass */
+.under_menu div a span svg {
+  fill: #ffffff;
+  width: 1.3vw;
+  height: 45px;
+}
