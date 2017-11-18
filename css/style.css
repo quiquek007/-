@@ -302,3 +302,14 @@ body {
 .phone div:nth-child(2) span:not(:hover) {
   transition: 0.7s all;
 }
+
+/* line 212, ../sass/style.sass */
+.bx-viewport {
+  max-height: 700px;
+}
+
+/* line 216, ../sass/style.sass */
+.pic_up {
+  display: block;
+  margin-top: -180px;
+}

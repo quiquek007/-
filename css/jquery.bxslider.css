@@ -31,7 +31,7 @@ ul.bxslider {
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
+/*  border: 5px solid #fff;*/
   background: #fff;
 }
 .bx-wrapper .bx-pager,
@@ -61,21 +61,21 @@ ul.bxslider {
   padding-top: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: #DCEFFD;
   text-indent: -9999px;
   display: block;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000;
+  background: #4FB2F6;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -87,31 +87,39 @@ ul.bxslider {
 .bx-wrapper .bx-pager-item {
   font-size: 0;
   line-height: 0;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  margin: 0 25px;
+  border-radius: 30px;
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: 10px;
-  background: url('images/controls.png') no-repeat 0 -32px;
+  left: 36vw;
+/*  left: 10px;*/
+  background: url('images/controls.png') no-repeat 0 -71px;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
   background-position: 0 0;
 }
 .bx-wrapper .bx-next {
-  right: 10px;
-  background: url('images/controls.png') no-repeat -43px -32px;
+  right: 36vw;
+/*  right: 10px;*/
+  background: url('images/controls.png') no-repeat -71px -71px;
 }
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
-  background-position: -43px 0;
+  background-position: -71px 0;
 }
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
-  top: 50%;
+  top: 97%;
+/*  top: 50%;*/
   margin-top: -16px;
   outline: 0;
-  width: 32px;
-  height: 32px;
+  width: 71px;
+  height: 71px;
   text-indent: -9999px;
   z-index: 9999;
 }
