@@ -209,8 +209,68 @@ body
 		span:not(:hover)
 			transition: 0.7s all
 
+//высота слайдера мах 700px
 .bx-viewport
 	max-height: 700px
+
+//наложение доп. слоя на слайдер
+.slides
+	position: relative
+
+//текст по середине слайда сверху
+.text_on_top
+	position: absolute
+	top: -20%
+	left: 38%
+	width: 24%
+	height: 35%
+	background-color: rgb(255, 255, 255)
+	border-bottom-left-radius: 500px
+	border-bottom-right-radius: 500px
+	padding-top: 10.65%
+	text-align: center
+	z-index: 120
+	span:nth-child(1)
+		display: block
+		font-family: 'Roboto'
+		font-size: 40px
+		text-transform: uppercase
+		color: #494949
+	span:nth-child(2)
+		font-family: 'Roboto Reg'
+		font-size: 20px
+		display: block
+		line-height: 1.12em
+		margin-top: 3px
+		color: #494949
+
+//синий слой+текст слева на слайдере
+.text_on_right
+	position: absolute
+	top: 0
+	left: 50%
+	width: 50%
+	height: 56.3%
+	background-color: rgba(0, 145, 255, 0.5)
+	z-index: 100
+	border-bottom-left-radius: 150px
+	padding-top: 11.8%
+	padding-left: 5.2%
+	span:nth-child(1)
+		display: block
+		font-family: 'Roboto'
+		font-size: 75px
+		letter-spacing: 0.01em
+		color: #FFFFFF
+	span:nth-child(2)
+		display: block
+		margin-top: 0.75%
+		font-family: 'Roboto Reg'
+		font-size: 30px
+		line-height: 1.6em
+		letter-spacing: 0.01em
+		color: #FFFFFF
+		
 
 //выравнивание картинки слайдера
 .pic_up
