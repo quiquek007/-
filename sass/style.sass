@@ -1,6 +1,7 @@
 @import url('Roboto Regular.css')
 @import url('Roboto Light V1.css')
 @import url('Roboto Medium V1.css')
+@import url('RobotoSlab-Regular.css') //font-family: 'Roboto Slab'
 
 *
 	box-sizing: border-box
@@ -193,20 +194,23 @@ body
 		a:not(:hover)
 			transition: 0.7s all
 	div:nth-child(2)
-		padding-top: 8px
-		padding-left: 8px
-		span
+		display: inline-block
+		padding: 2px
+		margin-top: 2px
+		border-radius: 30px
+		background: #15b17f linear-gradient(270deg, #9acd5a, #15b17f)
+		a
 			font-size: 18px
+			display: inline-block
+			padding: 5px 20px 5px 25px
+			border-radius: 30px
 			color: #4a4a4a
-			padding: 4px 20px 7px
-			border: 2px solid transparent
-			border-image: linear-gradient(to right, #008000 0%, #0000ff 100%)
-			border-image-slice: 1
-			cursor: pointer
-		span:hover
+			background: #ffffff
+			text-decoration: none
+		a:hover
 			transition: 0.3s all
 			box-shadow: 0 0 25px rgba(163,163,163,0.5)
-		span:not(:hover)
+		a:not(:hover)
 			transition: 0.7s all
 
 //высота слайдера мах 700px
@@ -254,13 +258,13 @@ body
 	background-color: rgba(0, 145, 255, 0.5)
 	z-index: 100
 	border-bottom-left-radius: 150px
-	padding-top: 11.8%
-	padding-left: 5.2%
+	padding-top: 11.45%
+	padding-left: 5.1%
 	span:nth-child(1)
 		display: block
-		font-family: 'Roboto'
+		font-family: 'Roboto Slab'
 		font-size: 75px
-		letter-spacing: 0.01em
+		letter-spacing: -0.03em
 		color: #FFFFFF
 	span:nth-child(2)
 		display: block
@@ -276,3 +280,57 @@ body
 .pic_up
 	display: block
 	margin-top: -180px
+
+.catalog_viewer
+	display: inline-block
+	width: 100%
+	padding-left: 13.6%
+	overflow: hidden
+	margin-top: 50px
+
+//заголовки каталога
+.catalog_title
+	float: left
+	cursor: pointer
+	border: 2px solid rgba(0, 0, 255, 0)
+	border-radius: 10em
+	margin-left: 3.8%
+	padding: 3px 15px 5px 15px
+	font-size: 24px
+	font-family: 'Roboto Reg'
+	letter-spacing: -0.01em
+	color: #484848
+	&:hover
+		color: #54B5FA
+		transition: 0.3s all
+		border: 2px solid #54B5FA
+	&:not(:hover)
+		transition: 0.7s all
+	&:nth-child(1)
+		margin-left: 0
+
+.theme_of_title
+	width: 41%
+	margin-top: 104px
+	padding-left: 14px
+	a
+		font-family: 'Roboto Slab'
+		font-size: 71px
+		line-height: 1.28em
+		display: inline-block
+		background: #15b17f linear-gradient(90deg, #0cba2e, #00c4ff)
+		text-decoration: none
+		span
+			display: inline-block
+			color: #000
+			background: #fff
+			mix-blend-mode: lighten
+	p
+		font-family: 'Roboto Lt'
+		font-size: 24px
+		overflow: hidden
+		max-height: 210px
+		margin-top: 48px
+		line-height: 1.5em
+		padding-left: 3px
+		letter-spacing: -0.015em

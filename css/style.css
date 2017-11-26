@@ -1,49 +1,50 @@
 @import url("Roboto Regular.css");
 @import url("Roboto Light V1.css");
 @import url("Roboto Medium V1.css");
-/* line 5, ../sass/style.sass */
+@import url("RobotoSlab-Regular.css");
+/* line 6, ../sass/style.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 8, ../sass/style.sass */
+/* line 9, ../sass/style.sass */
 body {
   margin: 0 0;
 }
 
-/* line 11, ../sass/style.sass */
+/* line 12, ../sass/style.sass */
 .under_menu {
   height: 45px;
   width: 100%;
   background: #6E6E6E;
   font-family: "Roboto Reg";
 }
-/* line 16, ../sass/style.sass */
+/* line 17, ../sass/style.sass */
 .under_menu div {
   line-height: 45px;
   height: 45px;
   float: left;
 }
-/* line 20, ../sass/style.sass */
+/* line 21, ../sass/style.sass */
 .under_menu div:nth-child(1) {
   margin-left: 14.4%;
 }
-/* line 22, ../sass/style.sass */
+/* line 23, ../sass/style.sass */
 .under_menu div:nth-child(2) {
   margin-left: 10.13%;
 }
-/* line 24, ../sass/style.sass */
+/* line 25, ../sass/style.sass */
 .under_menu div:nth-child(3) {
   margin-left: 15.55%;
 }
-/* line 26, ../sass/style.sass */
+/* line 27, ../sass/style.sass */
 .under_menu div:nth-child(4) {
   margin-left: 9.8%;
   color: #ffffff;
   padding-top: 8px;
   cursor: pointer;
 }
-/* line 31, ../sass/style.sass */
+/* line 32, ../sass/style.sass */
 .under_menu div:nth-child(4) span {
   border: 1px solid #ffffff;
   border-radius: 15px;
@@ -53,61 +54,61 @@ body {
   padding-left: 7px;
   padding-right: 2px;
 }
-/* line 39, ../sass/style.sass */
+/* line 40, ../sass/style.sass */
 .under_menu div:nth-child(4) span svg {
   margin-left: 8px;
   width: 1.1vw;
   height: 25px;
   float: right;
 }
-/* line 44, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 .under_menu div a {
   color: #ffffff;
   font-size: 0.92vw;
   text-decoration: none;
   display: inline-block;
 }
-/* line 49, ../sass/style.sass */
+/* line 50, ../sass/style.sass */
 .under_menu div a span {
   height: 45px;
   float: left;
   margin-right: 10px;
 }
-/* line 53, ../sass/style.sass */
+/* line 54, ../sass/style.sass */
 .under_menu div a span svg {
   fill: #ffffff;
   width: 1.3vw;
   height: 45px;
 }
-/* line 57, ../sass/style.sass */
+/* line 58, ../sass/style.sass */
 .under_menu div a:hover {
   transition: 0.3s all;
   color: #4FB562;
 }
-/* line 60, ../sass/style.sass */
+/* line 61, ../sass/style.sass */
 .under_menu div a:hover svg {
   transition: 0.3s all;
   fill: #4FB562;
 }
-/* line 63, ../sass/style.sass */
+/* line 64, ../sass/style.sass */
 .under_menu div a:not(:hover) {
   transition: 0.7s all;
 }
-/* line 65, ../sass/style.sass */
+/* line 66, ../sass/style.sass */
 .under_menu div a:not(:hover) svg {
   transition: 0.7s all;
 }
 
-/* line 69, ../sass/style.sass */
+/* line 70, ../sass/style.sass */
 .menu {
   height: 135px;
 }
 
-/* line 73, ../sass/style.sass */
+/* line 74, ../sass/style.sass */
 .search_icon {
   height: 30%;
 }
-/* line 75, ../sass/style.sass */
+/* line 76, ../sass/style.sass */
 .search_icon svg {
   margin-top: 14px;
   margin-left: 33.7%;
@@ -116,30 +117,30 @@ body {
   height: 25px;
   fill: #B7B7B7;
 }
-/* line 82, ../sass/style.sass */
+/* line 83, ../sass/style.sass */
 .search_icon svg:hover {
   transition: 0.3s all;
   fill: #0000ff;
 }
-/* line 85, ../sass/style.sass */
+/* line 86, ../sass/style.sass */
 .search_icon svg:not(:hover) {
   transition: 0.7s all;
 }
 
-/* line 89, ../sass/style.sass */
+/* line 90, ../sass/style.sass */
 .left_menu {
   width: 43%;
   height: 100%;
   float: left;
 }
-/* line 93, ../sass/style.sass */
+/* line 94, ../sass/style.sass */
 .left_menu ul {
   display: block;
   height: 70%;
   margin: 0 0;
   padding: 0 0;
 }
-/* line 98, ../sass/style.sass */
+/* line 99, ../sass/style.sass */
 .left_menu ul li {
   float: left;
   list-style: none;
@@ -148,7 +149,7 @@ body {
   letter-spacing: -0.015em;
   margin-top: 12px;
 }
-/* line 105, ../sass/style.sass */
+/* line 106, ../sass/style.sass */
 .left_menu ul li a {
   padding: 8px 20px 10px;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -156,55 +157,55 @@ body {
   color: #4a4a4a;
   text-decoration: none;
 }
-/* line 111, ../sass/style.sass */
+/* line 112, ../sass/style.sass */
 .left_menu ul li a:hover {
   transition: 0.3s all;
   border: 1px solid #4a4a4a;
 }
-/* line 114, ../sass/style.sass */
+/* line 115, ../sass/style.sass */
 .left_menu ul li a:not(:hover) {
   transition: 0.7s all;
 }
-/* line 116, ../sass/style.sass */
+/* line 117, ../sass/style.sass */
 .left_menu ul li:nth-child(1) {
   margin-left: 31.2%;
 }
-/* line 118, ../sass/style.sass */
+/* line 119, ../sass/style.sass */
 .left_menu ul li:nth-child(2) {
   margin-left: 3.3%;
   letter-spacing: -0.01em;
 }
-/* line 121, ../sass/style.sass */
+/* line 122, ../sass/style.sass */
 .left_menu ul li:nth-child(3) {
   margin-left: 1.7%;
 }
 
-/* line 125, ../sass/style.sass */
+/* line 126, ../sass/style.sass */
 .logo {
   float: left;
   height: 100%;
   width: 14%;
   text-align: center;
 }
-/* line 130, ../sass/style.sass */
+/* line 131, ../sass/style.sass */
 .logo img {
   margin-top: 14px;
 }
 
-/* line 134, ../sass/style.sass */
+/* line 135, ../sass/style.sass */
 .right_menu {
   float: left;
   height: 100%;
   width: 43%;
 }
-/* line 135, ../sass/style.sass */
+/* line 136, ../sass/style.sass */
 .right_menu .empty {
   width: 100%;
   height: 30%;
   float: left;
   display: block;
 }
-/* line 143, ../sass/style.sass */
+/* line 144, ../sass/style.sass */
 .right_menu ul {
   display: block;
   float: left;
@@ -213,7 +214,7 @@ body {
   margin: 0 0;
   padding: 0 0;
 }
-/* line 150, ../sass/style.sass */
+/* line 151, ../sass/style.sass */
 .right_menu ul li {
   float: left;
   list-style: none;
@@ -222,7 +223,7 @@ body {
   letter-spacing: -0.015em;
   margin-top: 12px;
 }
-/* line 157, ../sass/style.sass */
+/* line 158, ../sass/style.sass */
 .right_menu ul li a {
   padding: 8px 20px 10px;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -230,90 +231,93 @@ body {
   color: #4a4a4a;
   text-decoration: none;
 }
-/* line 163, ../sass/style.sass */
+/* line 164, ../sass/style.sass */
 .right_menu ul li a:hover {
   transition: 0.3s all;
   border: 1px solid #4a4a4a;
 }
-/* line 166, ../sass/style.sass */
+/* line 167, ../sass/style.sass */
 .right_menu ul li a:not(:hover) {
   transition: 0.7s all;
 }
-/* line 168, ../sass/style.sass */
+/* line 169, ../sass/style.sass */
 .right_menu ul li:nth-child(2) {
   margin-left: 3.2%;
 }
-/* line 170, ../sass/style.sass */
+/* line 171, ../sass/style.sass */
 .right_menu ul li:nth-child(3) {
   margin-left: 7%;
   letter-spacing: -0.085em;
 }
 
-/* line 176, ../sass/style.sass */
+/* line 177, ../sass/style.sass */
 .phone {
   float: left;
   width: 55%;
   height: 100%;
   font-family: "Roboto Lt";
 }
-/* line 181, ../sass/style.sass */
+/* line 182, ../sass/style.sass */
 .phone div:nth-child(1) {
   height: 30%;
   padding-top: 10px;
   padding-left: 17px;
 }
-/* line 185, ../sass/style.sass */
+/* line 186, ../sass/style.sass */
 .phone div:nth-child(1) a {
   text-decoration: none;
   color: #4a4a4a;
   font-size: 22px;
   letter-spacing: -0.03em;
 }
-/* line 190, ../sass/style.sass */
+/* line 191, ../sass/style.sass */
 .phone div:nth-child(1) a:hover {
   transition: 0.3s all;
   color: #0000ff;
 }
-/* line 193, ../sass/style.sass */
+/* line 194, ../sass/style.sass */
 .phone div:nth-child(1) a:not(:hover) {
   transition: 0.7s all;
 }
-/* line 195, ../sass/style.sass */
+/* line 196, ../sass/style.sass */
 .phone div:nth-child(2) {
-  padding-top: 8px;
-  padding-left: 8px;
+  display: inline-block;
+  padding: 2px;
+  margin-top: 2px;
+  border-radius: 30px;
+  background: #15b17f linear-gradient(270deg, #9acd5a, #15b17f);
 }
-/* line 198, ../sass/style.sass */
-.phone div:nth-child(2) span {
+/* line 202, ../sass/style.sass */
+.phone div:nth-child(2) a {
   font-size: 18px;
+  display: inline-block;
+  padding: 5px 20px 5px 25px;
+  border-radius: 30px;
   color: #4a4a4a;
-  padding: 4px 20px 7px;
-  border: 2px solid transparent;
-  border-image: linear-gradient(to right, #008000 0%, #0000ff 100%);
-  border-image-slice: 1;
-  cursor: pointer;
+  background: #ffffff;
+  text-decoration: none;
 }
-/* line 206, ../sass/style.sass */
-.phone div:nth-child(2) span:hover {
+/* line 210, ../sass/style.sass */
+.phone div:nth-child(2) a:hover {
   transition: 0.3s all;
   box-shadow: 0 0 25px rgba(163, 163, 163, 0.5);
 }
-/* line 209, ../sass/style.sass */
-.phone div:nth-child(2) span:not(:hover) {
+/* line 213, ../sass/style.sass */
+.phone div:nth-child(2) a:not(:hover) {
   transition: 0.7s all;
 }
 
-/* line 213, ../sass/style.sass */
+/* line 217, ../sass/style.sass */
 .bx-viewport {
   max-height: 700px;
 }
 
-/* line 217, ../sass/style.sass */
+/* line 221, ../sass/style.sass */
 .slides {
   position: relative;
 }
 
-/* line 221, ../sass/style.sass */
+/* line 225, ../sass/style.sass */
 .text_on_top {
   position: absolute;
   top: -20%;
@@ -327,7 +331,7 @@ body {
   text-align: center;
   z-index: 120;
 }
-/* line 233, ../sass/style.sass */
+/* line 237, ../sass/style.sass */
 .text_on_top span:nth-child(1) {
   display: block;
   font-family: "Roboto";
@@ -335,7 +339,7 @@ body {
   text-transform: uppercase;
   color: #494949;
 }
-/* line 239, ../sass/style.sass */
+/* line 243, ../sass/style.sass */
 .text_on_top span:nth-child(2) {
   font-family: "Roboto Reg";
   font-size: 20px;
@@ -345,7 +349,7 @@ body {
   color: #494949;
 }
 
-/* line 248, ../sass/style.sass */
+/* line 252, ../sass/style.sass */
 .text_on_right {
   position: absolute;
   top: 0;
@@ -355,18 +359,18 @@ body {
   background-color: rgba(0, 145, 255, 0.5);
   z-index: 100;
   border-bottom-left-radius: 150px;
-  padding-top: 11.8%;
-  padding-left: 5.2%;
+  padding-top: 11.45%;
+  padding-left: 5.1%;
 }
-/* line 259, ../sass/style.sass */
+/* line 263, ../sass/style.sass */
 .text_on_right span:nth-child(1) {
   display: block;
-  font-family: "Roboto";
+  font-family: "Roboto Slab";
   font-size: 75px;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.03em;
   color: #FFFFFF;
 }
-/* line 265, ../sass/style.sass */
+/* line 269, ../sass/style.sass */
 .text_on_right span:nth-child(2) {
   display: block;
   margin-top: 0.75%;
@@ -377,8 +381,79 @@ body {
   color: #FFFFFF;
 }
 
-/* line 276, ../sass/style.sass */
+/* line 280, ../sass/style.sass */
 .pic_up {
   display: block;
   margin-top: -180px;
+}
+
+/* line 284, ../sass/style.sass */
+.catalog_viewer {
+  display: inline-block;
+  width: 100%;
+  padding-left: 13.6%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+/* line 292, ../sass/style.sass */
+.catalog_title {
+  float: left;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 255, 0);
+  border-radius: 10em;
+  margin-left: 3.8%;
+  padding: 3px 15px 5px 15px;
+  font-size: 24px;
+  font-family: "Roboto Reg";
+  letter-spacing: -0.01em;
+  color: #484848;
+}
+/* line 303, ../sass/style.sass */
+.catalog_title:hover {
+  color: #54B5FA;
+  transition: 0.3s all;
+  border: 2px solid #54B5FA;
+}
+/* line 307, ../sass/style.sass */
+.catalog_title:not(:hover) {
+  transition: 0.7s all;
+}
+/* line 309, ../sass/style.sass */
+.catalog_title:nth-child(1) {
+  margin-left: 0;
+}
+
+/* line 312, ../sass/style.sass */
+.theme_of_title {
+  width: 41%;
+  margin-top: 104px;
+  padding-left: 14px;
+}
+/* line 316, ../sass/style.sass */
+.theme_of_title a {
+  font-family: "Roboto Slab";
+  font-size: 71px;
+  line-height: 1.28em;
+  display: inline-block;
+  background: #15b17f linear-gradient(90deg, #0cba2e, #00c4ff);
+  text-decoration: none;
+}
+/* line 323, ../sass/style.sass */
+.theme_of_title a span {
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: lighten;
+}
+/* line 328, ../sass/style.sass */
+.theme_of_title p {
+  font-family: "Roboto Lt";
+  font-size: 24px;
+  overflow: hidden;
+  max-height: 210px;
+  margin-top: 48px;
+  line-height: 1.5em;
+  padding-left: 3px;
+  letter-spacing: -0.015em;
 }
