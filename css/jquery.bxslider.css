@@ -108,15 +108,82 @@ ul.bxslider {
 /*  right: 10px;*/
   background: url('images/controls.png') no-repeat -71px -71px;
 }
-.bx-wrapper .bx-next:hover,
-.bx-wrapper .bx-next:focus {
-  background-position: -71px 0;
+/***************************на 2й слайдер**********************/
+.medicines .bx-wrapper {
+  position: absolute;
+  margin-bottom: 60px;
+  padding: 0;
+  *zoom: 1;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  left: 10%;
 }
+.medicines .bx-wrapper .bx-pager,
+.medicines .bx-wrapper .bx-controls-auto {
+  position: absolute;
+  top: -2%;
+  width: 100%;
+}
+.medicines .bx-wrapper .bx-next{
+	right: 44%;
+	background: url('images/controls-s.png') no-repeat -15px -25px;
+}
+.medicines .bx-wrapper .bx-next:hover,
+.medicines .bx-wrapper .bx-next:focus {
+  background-position: -15px 8px;
+}
+.medicines .bx-wrapper .bx-prev:hover,
+.medicines .bx-wrapper .bx-prev:focus {
+  background-position: 0 8px;
+}
+.medicines .bx-wrapper .bx-prev {
+  left: 44%;
+/*  left: 10px;*/
+  background: url('images/controls-s.png') no-repeat 0 -25px;
+}
+.medicines .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #DCEFFD;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  outline: 0;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #5d5d5d;
+}
+.medicines .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.medicines .bx-wrapper .bx-pager.bx-default-pager a.active,
+.medicines .bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #4FB2F6;
+}
+.medicines .bx-wrapper .bx-pager-item {
+  font-size: 0;
+  line-height: 0;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  margin: 0 5px;
+  border-radius: 30px;
+}
+.medicines .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 0%;
+/*  top: 50%;*/
+  outline: 0;
+  width: 25px;
+  height: 35px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+/**************************************************************/
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
   top: 97%;
 /*  top: 50%;*/
-  margin-top: -16px;
+  margin-top: -0px;
   outline: 0;
   width: 71px;
   height: 71px;

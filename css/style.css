@@ -427,10 +427,11 @@ body {
 /* line 312, ../sass/style.sass */
 .theme_of_title {
   width: 41%;
-  margin-top: 104px;
+  float: left;
+  margin-top: 65px;
   padding-left: 14px;
 }
-/* line 316, ../sass/style.sass */
+/* line 317, ../sass/style.sass */
 .theme_of_title a {
   font-family: "Roboto Slab";
   font-size: 71px;
@@ -439,21 +440,61 @@ body {
   background: #15b17f linear-gradient(90deg, #0cba2e, #00c4ff);
   text-decoration: none;
 }
-/* line 323, ../sass/style.sass */
+/* line 324, ../sass/style.sass */
 .theme_of_title a span {
   display: inline-block;
   color: #000;
   background: #fff;
   mix-blend-mode: lighten;
 }
-/* line 328, ../sass/style.sass */
+/* line 329, ../sass/style.sass */
 .theme_of_title p {
   font-family: "Roboto Lt";
   font-size: 24px;
   overflow: hidden;
   max-height: 210px;
-  margin-top: 48px;
+  margin-top: 46px;
   line-height: 1.5em;
   padding-left: 3px;
   letter-spacing: -0.015em;
+}
+
+/* line 340, ../sass/style.sass */
+.btn_see_catalog {
+  display: inline-block;
+  margin-top: 29px;
+  padding: 2px;
+  margin-left: 4px;
+  border-radius: 40px;
+  background: #15b17f linear-gradient(270deg, #9acd5a, #15b17f);
+}
+/* line 347, ../sass/style.sass */
+.btn_see_catalog a {
+  font-family: "Roboto Lt";
+  font-size: 28px;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+  border-radius: 40px;
+  color: #4a4a4a;
+  background: #ffffff;
+  text-decoration: none;
+  letter-spacing: -0.015em;
+}
+/* line 357, ../sass/style.sass */
+.btn_see_catalog a:hover {
+  transition: 0.3s all;
+  box-shadow: 0 0 25px rgba(163, 163, 163, 0.5);
+}
+/* line 360, ../sass/style.sass */
+.btn_see_catalog a:not(:hover) {
+  transition: 0.7s all;
+}
+
+/* line 364, ../sass/style.sass */
+.medicines {
+  position: relative;
+  width: 59%;
+  height: 100%;
+  float: left;
+  margin-top: 10px;
 }

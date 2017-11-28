@@ -311,7 +311,8 @@ body
 
 .theme_of_title
 	width: 41%
-	margin-top: 104px
+	float: left
+	margin-top: 65px
 	padding-left: 14px
 	a
 		font-family: 'Roboto Slab'
@@ -330,7 +331,39 @@ body
 		font-size: 24px
 		overflow: hidden
 		max-height: 210px
-		margin-top: 48px
+		margin-top: 46px
 		line-height: 1.5em
 		padding-left: 3px
 		letter-spacing: -0.015em
+
+//кнопка смотреть в каталоге
+.btn_see_catalog
+	display: inline-block
+	margin-top: 29px
+	padding: 2px
+	margin-left: 4px
+	border-radius: 40px
+	background: #15b17f linear-gradient(270deg, #9acd5a, #15b17f)
+	a
+		font-family: 'Roboto Lt'
+		font-size: 28px
+		display: inline-block
+		padding: 10px 40px 10px 40px
+		border-radius: 40px
+		color: #4a4a4a
+		background: #ffffff
+		text-decoration: none
+		letter-spacing: -0.015em
+	a:hover
+		transition: 0.3s all
+		box-shadow: 0 0 25px rgba(163,163,163,0.5)
+	a:not(:hover)
+		transition: 0.7s all
+
+//слайдер с сиропами
+.medicines
+	position: relative
+	width: 59%
+	height: 100%
+	float: left
+	margin-top: 10px

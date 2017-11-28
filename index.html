@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body>
@@ -262,8 +263,23 @@
 				<p>
 					Производство продукции осуществляется на основании промышленных регламентов, технологических инструкций, стандартных операционных процедур (СОП). На предприятии действует собственная служба обеспечения и контроля качества. Высококвалифицированный персонал выполняет работы по входному, промежуточному контролю сырья и материалов, а также осуществляет в ходе техпроцесса контроль качества готовой продукции, контролирует хранение и реализацию. На предприятии разработаны и сертифицированы:
 				</p>
+				<div class="btn_see_catalog"><a href="#">Смотреть в каталоге</a></div>
 			</div>
-			<div>123</div>
+			<div class="medicines">
+				<div class="bxslider2">
+					<div>
+						<img style="float: left" src="img/Розавит.png">
+						<img style="float: left" src="img/Розавит.png">
+						<img style="float: left" src="img/Розавит.png">
+					</div>
+					<div>
+						<img src="img/Подорожник.png">
+					</div>
+					<div>
+						<img src="img/Подорожник.png">
+					</div>
+				</div>
+			</div>
 		</div>
 	</main>
 	<footer>
@@ -275,12 +291,16 @@
 	<!-- bxSlider Javascript file -->
 	<script src="js/jquery.bxslider.min.js"></script>
 	<!-- bxSlider CSS file -->
-	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<script type="text/javascript">
 		$(document).ready(function(){
 		  $('.bxslider').bxSlider({
 		  });
-		});		
+		});	
+		$(document).ready(function(){
+		  $('.bxslider2').bxSlider({
+		  });
+		});	
 	</script>
+	
 </body>
 </html>
