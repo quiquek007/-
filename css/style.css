@@ -496,5 +496,102 @@ body {
   width: 59%;
   height: 100%;
   float: left;
-  margin-top: 10px;
+  margin-top: 90px;
+}
+/* line 372, ../sass/style.sass */
+.medicines .bxslider2 div a {
+  padding: 20px;
+  border: 2px solid rgba(238, 238, 238, 0);
+  border-radius: 20px;
+  display: block;
+  float: left;
+  text-align: center;
+  color: #474747;
+  text-decoration: none;
+}
+/* line 381, ../sass/style.sass */
+.medicines .bxslider2 div a img {
+  margin-bottom: 20px;
+}
+/* line 383, ../sass/style.sass */
+.medicines .bxslider2 div a b {
+  font-family: "Roboto";
+  font-size: 22px;
+  display: block;
+}
+/* line 387, ../sass/style.sass */
+.medicines .bxslider2 div a span {
+  font-size: 19px;
+  font-family: "Roboto Lt";
+  display: block;
+}
+/* line 391, ../sass/style.sass */
+.medicines .bxslider2 div a:nth-child(2) {
+  padding-top: 50px;
+}
+/* line 393, ../sass/style.sass */
+.medicines .bxslider2 div a:hover {
+  transition: 0.3s all;
+  border: 2px solid #00cae5;
+  text-decoration: underline;
+}
+/* line 397, ../sass/style.sass */
+.medicines .bxslider2 div a:not(:hover) {
+  transition: 0.7s all;
+}
+
+/* line 401, ../sass/style.sass */
+.news {
+  margin-top: 180px;
+  width: 100%;
+  height: 837px;
+  background: url(../img/bg-news.jpg) repeat-y;
+  padding-left: 14.5%;
+  padding-right: 14.5%;
+}
+
+/* line 409, ../sass/style.sass */
+.news_area {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 414, ../sass/style.sass */
+.news_pic {
+  width: 50%;
+  height: 100%;
+  background: green;
+  float: left;
+}
+/* line 419, ../sass/style.sass */
+.news_pic span {
+  display: block;
+}
+/* line 421, ../sass/style.sass */
+.news_pic div {
+  position: relative;
+}
+/* line 423, ../sass/style.sass */
+.news_pic div span {
+  position: absolute;
+  top: 0;
+  background: red;
+  padding: 5px;
+  border-radius: 10px;
+}
+/* line 429, ../sass/style.sass */
+.news_pic span:nth-child(1) {
+  margin-top: 110px;
+}
+/* line 431, ../sass/style.sass */
+.news_pic span:nth-child(4) {
+  background: red;
+}
+
+/* line 434, ../sass/style.sass */
+.news_list {
+  width: 50%;
+  height: 100%;
+  background: red;
+  float: left;
 }
