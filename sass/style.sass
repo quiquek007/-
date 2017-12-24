@@ -138,6 +138,20 @@ body
 		height: 30%
 		float: left
 		display: block
+	.hide_part
+		display: none
+		span:nth-child(1)
+			display: block
+			font-family: 'Roboto'
+			font-size: 2.5vw
+			text-transform: uppercase
+			color: #494949
+		span:nth-child(2)
+			font-family: 'Roboto Reg'
+			font-size: 1.5vw
+			display: block
+			margin-top: 3px
+			color: #494949
 	float: left
 	height: 100%
 	width: 43%
@@ -212,6 +226,18 @@ body
 			box-shadow: 0 0 25px rgba(163,163,163,0.5)
 		a:not(:hover)
 			transition: 0.7s all
+
+.menu_btn
+	float: right
+	margin-top: 20px
+	display: none
+	svg
+		width: 5vw
+	svg:hover
+		transition: 0.3s all
+		fill: #0000ff
+	svg:not(:hover)
+		transition: 0.7s all
 
 //высота слайдера мах 700px
 .bx-viewport
@@ -745,3 +771,339 @@ body
 		float: right
 		margin-right: 14.6%
 		margin-top: 18px
+
+//****************media******************
+@media screen and (max-width: 1900px)
+	.left_menu
+		ul
+			li
+				font-size: 1.2vw
+			li:nth-child(1)
+				margin-left: 20%
+	.right_menu
+		ul
+			li
+				font-size: 1.2vw
+
+@media screen and (max-width: 1750px)
+	.under_menu
+		div
+			a, span
+				font-size: 0.9vw
+			&:nth-child(1)
+				margin-left: 9%
+	.text_on_top
+		span:nth-child(1)
+			font-size: 1.9vw
+		span:nth-child(2)
+			font-size: 1.1vw
+	.about
+		a:nth-child(4)
+			margin-left: 0vw
+
+@media screen and (max-width: 1600px)
+	.under_menu
+		div
+			a, span
+				font-size: 1vw
+			&:nth-child(1)
+				margin-left: 6%
+	.left_menu
+		ul
+			li
+				font-size: 1.5vw
+			li:nth-child(1)
+				margin-left: 5%
+	.search_icon
+		svg
+			margin-left: 8%
+	.right_menu
+		ul
+			width: 60%
+			li
+				font-size: 1.5vw
+	.text_on_top
+		padding-top: 12.25%
+	.phone
+		float: right
+		width: 40%
+	.pic_up
+		display: block
+		margin-top: -5vw
+	.text_on_right
+		span:nth-child(1)
+			font-size: 3.2vw
+		span:nth-child(2)
+			font-size: 1.7vw
+	.catalog_viewer
+		padding-left: 5%
+	.catalog_title
+		font-size: 1.6vw
+	.about span:nth-child(3)
+		text-align: center
+		margin-left: 0
+
+@media screen and (max-width: 1350px)
+	.theme_of_title
+		width: 100%
+		margin-left: 0
+		.med_fetures
+			font-size: 5.3vw
+			span
+				font-size: 5.3vw
+		p
+			font-size: 1.5vw
+	.partnership 
+		span
+			margin: 2vw 0 0 15%
+			font-size: 3.5vw
+		a
+			padding: 1vw 1vw 1vw 1vw
+			font-size: 2vw
+			width: 19%
+	.btn_see_catalog
+		margin-left: 35%
+	.medicines
+		width: 100%
+		margin-left: 0
+		margin-bottom: 520px
+	.bxslider2
+		div
+			a
+				b
+					font-size: 1.5vw
+				span
+					font-size: 1.3vw
+	.news
+		margin-top: 10vw
+		padding-left: 5%
+		padding-right: 5%
+	.medicines_info
+		margin: 0 5%
+	.about
+		width: 20%
+		margin-left: 5%
+	.company
+		width: 20%
+	.production
+		width: 30%
+	.phone
+		div:nth-child(1) 
+			a
+				font-size: 1.8vw
+	.feedback
+		div
+			margin-left: -30%
+
+@media screen and (max-width: 1100px)
+	.left_menu
+		ul
+			li
+				font-size: 1.5vw
+			li:nth-child(1)
+				margin-left: 0%
+			li:nth-child(2)
+				margin-left: 0%
+			li:nth-child(3)
+				margin-left: 0%
+	.right_menu
+		ul
+			li:nth-child(3)
+				margin-left: 0%
+	.phone
+		div:nth-child(2)
+			a
+				font-size: 1.4vw
+	.catalog_title
+		margin-left: 0
+	.about
+		.OAO
+			font-size: 2.3vw
+		span:nth-child(3)
+			font-size: 1.5vw
+		a:nth-child(4)
+			font-size: 2.3vw
+		a:nth-child(5)
+			font-size: 2.3vw
+		span:nth-child(6), span:nth-child(7)
+			font-size: 1.4vw
+	.company
+		span
+			font-size: 2.5vw
+		a
+			font-size: 1.4vw
+	.join_us
+		padding-right: 5%
+		a
+			span
+				margin-right: 0.1vw
+				font-size: 2vw
+	.logo
+		img
+			width: 55%
+	.menu
+		height: 105px
+	.search_icon
+		svg
+			width: 2.5vw
+			height: 2.5vw
+	.under_menu
+		div
+			a, span
+				font-size: 1.5vw
+			&:nth-child(1)
+				margin-left: 2%
+			&:nth-child(2)
+				margin-left: 4%
+			&:nth-child(3)
+				margin-left: 4%
+			&:nth-child(4)
+				margin-left: 7%
+	
+@media screen and (max-width: 900px)
+	.under_menu
+		div:nth-child(1)
+			display: none
+		div:nth-child(3)
+			margin-left: 25%
+		div:nth-child(4)
+			margin-left: 25%
+			span
+				svg
+					width: 2vw
+		div
+			a
+				span
+					svg
+						width: 3vw
+	.text_on_top
+		display: none
+	.left_menu
+		display: none
+	.right_menu
+		width: 84%
+		ul
+			display: none
+		.hide_part
+			display: block
+			float: left
+	.phone
+		width: 20%
+	.menu_btn
+		display: block
+		cursor: pointer
+	.btn_see_catalog
+		margin-left: 28%
+	.about
+		margin-top: 20px
+		margin-left: 10%
+		width: 40%
+		.OAO
+			font-size: 3.5vw
+		span:nth-child(3)
+			font-size: 2vw
+		a:nth-child(4)
+			font-size: 3vw
+			display: block
+			margin-top: 1vw
+		a:nth-child(5)
+			font-size: 3vw
+		span:nth-child(6)
+			margin-top: 1vw
+			font-size: 2vw
+		span:nth-child(7)
+			margin-top: 1vw
+			font-size: 1.5vw
+	.company
+		margin-top: 20px
+		width: 40%
+		span
+			font-size: 3.5vw
+		a
+			font-size: 2vw
+	.production
+		width: 50%
+		margin-left: 4%
+	.partners
+		width: 40%
+	.feedback
+		width: 60%
+		margin-top: 20px
+
+@media screen and (max-width: 700px)
+	.under_menu
+		div
+			a, span
+				font-size: 2.2vw
+		div:nth-child(3)
+			margin-left: 15%
+		div:nth-child(4)
+			margin-left: 15%
+			span
+				svg
+					width: 4vw
+	.right_menu
+		.hide_part
+			margin-top: 10px
+			span:nth-child(1)
+				font-size: 4vw
+			span:nth-child(2)
+				font-size: 3vw
+	.phone
+		width: 40%
+		div:nth-child(1)
+			a
+				font-size: 3.4vw
+		div:nth-child(2)
+			a
+				padding: 1vw 2vw 1vw 2vw
+				font-size: 3vw
+	.menu_btn 
+		svg
+			width: 9vw
+	.catalog_viewer
+		padding-left: 0%
+		margin-top: 0
+	.theme_of_title
+		margin-top: 5px
+		p
+			margin-top: 15px
+	.btn_see_catalog
+		margin-left: 25%
+		a
+			font-size: 3vw
+	.news_pic
+		width: 100%
+		div
+			span
+				display: none
+	.news_list
+		display: none
+	.partnership
+		span
+			margin: 2vw 0 0 0%
+			font-size: 6vw
+		a
+			margin-top: 10vw
+			width: 45%
+			font-size: 4vw
+	.feedback
+		div
+			a
+				font-size: 3.5vw
+	.join_us
+		width: 70%
+		.join_us_title
+			font-size: 3vw
+			margin-right: 0
+	.last_line
+		.all_rights
+			font-size: 2.5vw
+			margin-left: 0
+		.develop
+			font-size: 2.4vw
+		svg
+			margin-right: 1%
+			width: 15vw
+			
+		

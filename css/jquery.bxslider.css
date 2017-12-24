@@ -254,3 +254,67 @@ ul.bxslider {
   font-size: .85em;
   padding: 10px;
 }
+
+@media screen and (max-width: 1750px){
+	.medicines .bx-wrapper .bx-controls-direction a{
+		top: -10%
+	}
+	.medicines .bx-wrapper .bx-pager,
+	.medicines .bx-wrapper .bx-controls-auto {
+		bottom: 106%
+	}
+}
+@media screen and (max-width: 1600px){
+	.bx-wrapper .bx-pager.bx-default-pager a {
+	  width: 2.7vw;
+	  height: 2.7vw;
+	  margin: 0.6vw;
+	  -moz-border-radius: 3vw;
+	  -webkit-border-radius: 3vw;
+	  border-radius: 3vw;
+	}
+	.bx-wrapper .bx-pager-item {
+	  font-size: 0;
+	  line-height: 0;
+	  width: 4vw;
+	  height: 4vw;
+	  background: #ffffff;
+	  margin: 0 0.5vw;
+	  border-radius: 2vw;
+	}
+	.medicines .bx-wrapper img {
+		max-width: 90%;
+	}
+
+}
+@media screen and (max-width: 1350px){
+	.medicines .bx-wrapper {
+	  left: 0%; /* ТУТ ВЛЕВО ВПРАВО!!!*/
+	}
+}
+@media screen and (max-width: 900px){
+	.bx-wrapper .bx-prev {
+  		left: 25%;
+	}
+	.bx-wrapper .bx-next {
+	  right: 25%;
+	}
+	.bx-wrapper .bx-pager,
+	.bx-wrapper .bx-controls-auto {
+	  position: absolute;
+	  bottom: -2vw;
+	  width: 100%;
+	}
+
+}
+@media screen and (max-width: 700px){
+	.medicines .bx-wrapper {
+	  left: 20%; /* ТУТ ВЛЕВО ВПРАВО!!!*/
+	}
+	.medicines .bx-wrapper .bx-prev {
+  		left: 25%;
+	}
+	.medicines .bx-wrapper .bx-next {
+	  right: 25%;
+	}
+}
