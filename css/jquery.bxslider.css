@@ -129,7 +129,7 @@ ul.bxslider {
   width: 100%;
 }
 .medicines .bx-wrapper .bx-next{
-	right: 44%;
+	right: 20%;
 	background: url('images/controls-s.png') no-repeat -15px -25px;
 }
 .medicines .bx-wrapper .bx-next:hover,
@@ -141,7 +141,7 @@ ul.bxslider {
   background-position: 0 8px;
 }
 .medicines .bx-wrapper .bx-prev {
-  left: 44%;
+  left: 20%;
 /*  left: 10px;*/
   background: url('images/controls-s.png') no-repeat 0 -25px;
 }
@@ -312,9 +312,9 @@ ul.bxslider {
 	  left: 20%; /* ТУТ ВЛЕВО ВПРАВО!!!*/
 	}
 	.medicines .bx-wrapper .bx-prev {
-  		left: 25%;
+  		left: 15%;
 	}
 	.medicines .bx-wrapper .bx-next {
-	  right: 25%;
+	  right: 15%;
 	}
 }

@@ -8,6 +8,7 @@
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
 </head>
 <body>
 	<header>
@@ -92,7 +93,7 @@
 				</a>
 			</div>
 			<div>
-				<span>
+				<span id="lang" onclick="changeLang()">
 					ENG<svg viewBox="0 0 473.68 473.68">
 				<g>
 					<path style="fill:#29337A;" d="M41.712,102.641c-15.273,22.168-26.88,47.059-33.918,73.812h107.734L41.712,102.641z"/>
@@ -174,7 +175,6 @@
 					L66.808,72.055c-7.618,7.861-14.704,16.237-21.189,25.089l79.313,79.313l20.291,20.284H3.448C1.227,209.784,0,223.164,0,236.844
 					c0,17.034,1.84,33.626,5.25,49.643h184.834L70.847,405.724c7.808,7.67,16.121,14.813,24.921,21.349l95.023-95.023v137.116
 					c11.151,2.199,22.583,3.631,34.232,4.215c3.938,0.191,7.872,0.299,11.81,0.299C253.549,473.68,268.103,465.917,280.545,452.432z"/>
-				<g>
 				</svg>
 				</span>
 			</div>
@@ -182,8 +182,8 @@
 		<div class="menu">
 			<!--left-->
 			<div class="left_menu">
-				<div class="search_icon">
-					<svg viewBox="0 0 512 512">
+				<div class="search_icon" id="search_icon">
+					<svg viewBox="0 0 512 512" onclick="showSearch()">
 					  <g>
 						<path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"/>
 					  </g>
@@ -288,7 +288,37 @@
 							<b>Сироп <br>«РОЗАВИТ»</b>
 							<span>Средство, регулируещее<br>метаболические процессы</span>
 						</a>
+					</div>
+					<div>
 						<a href="#">
+							<img src="img/Розавит.png">
+							<b>Сироп <br>«РОЗАВИТ»</b>
+							<span>Средство, регулируещее<br>метаболические процессы</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="img/Подорожник.png">
+							<b>Сироп <br>«РОЗАВИТ»</b>
+							<span>Средство, регулируещее<br>метаболические процессы</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="img/Розавит.png">
+							<b>Сироп <br>«РОЗАВИТ»</b>
+							<span>Средство, регулируещее<br>метаболические процессы</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="img/Подорожник.png">
+							<b>Сироп <br>«РОЗАВИТ»</b>
+							<span>Средство, регулируещее<br>метаболические процессы</span>
+						</a>
+					</div>
+<!--
+					<a href="#">
 							<img src="img/Подорожник.png">
 							<b>Подорожник с<br>витамином С</b>
 							<span>Средство, регулируещее<br>метаболические процессы</span>
@@ -298,26 +328,7 @@
 							<b>Сироп <br>«РОЗАВИТ»</b>
 							<span>Средство, регулируещее<br>метаболические процессы</span>
 						</a>
-					</div>
-					<div>
-						<a href="#">
-							<img src="img/Розавит.png">
-							<b>Сироп <br>«РОЗАВИТ»</b>
-							<span>Средство, регулируещее<br>метаболические процессы</span>
-						</a>
-					</div>
-					<div>
-						<a href="#">
-							<img src="img/Розавит.png">
-							<b>Сироп <br>«РОЗАВИТ»</b>
-							<span>Средство, регулируещее<br>метаболические процессы</span>
-						</a>
-						<a href="#">
-							<img src="img/Подорожник.png">
-							<b>Сироп <br>«РОЗАВИТ»</b>
-							<span>Средство, регулируещее<br>метаболические процессы</span>
-						</a>
-					</div>
+-->
 				</div>
 			</div>
 		</div>
@@ -370,10 +381,18 @@
 		</div>
 		<div class="medicines_info">
 			<span>Лекарственные препараты и пищевые добавки</span>
-			<p>
+			<p id="rise_object">
 				Производство продукции осуществляется на основании промышленных регламентов, технологических инструкций, стандартных операционных процедур (СОП). На предприятии действует собственная служба обеспечения и контроля  качества. Высококвалифицированный персонал выполняет работы по входному промежуточному контролю, а также контроль качества готовой продукции, контролирует хранение и реализацию. Процесс производства, обеспечения и контроль качества продукции ОАО "Экзон" гарантирует безопасность продукции, эффективность и полное соответствие техническим нормативным правовым актам и нормативным документам.
+				
+				 Proin ac semper nisl. Aliquam pharetra turpis ac massa scelerisque porta. Donec ultricies libero ex, non suscipit metus faucibus a. Praesent nec suscipit nisl. Integer eleifend est quis nisl maximus, vel iaculis odio lobortis. Morbi quis felis quam. Vivamus mattis ornare efficitur. Nam at nulla aliquet, molestie neque id, condimentum libero.
+
+				Aenean sit amet enim sed nisl iaculis porttitor non vitae nulla. Donec ultrices mollis scelerisque. Ut gravida turpis sed augue tincidunt tempor. Aliquam augue felis, faucibus sed lacinia euismod, sollicitudin a nisl. Aenean vel diam ante. Mauris non lacus porttitor, rhoncus lectus non, iaculis ligula. Nam mauris erat, elementum sed lectus eget, ultrices sollicitudin nulla. 
 			</p>
-			<a href="#">Подробно</a>
+			<a id="fa1" href="#open1" onclick="show(
+			'rise_object',
+			'fa1',
+			620,
+			10)">Подробно</a>
 		</div>
 		<div class="partnership">
 			<span>
@@ -474,9 +493,13 @@
 		  });
 		});	
 		$(document).ready(function(){
-		  $('.bxslider2').bxSlider({
-		  });
-		});	
+    		$('.bxslider2').bxSlider({
+        	minSlides: 3,
+        	maxSlides: 3,
+        	moveSlides: 1,
+        	slideWidth: 1000
+    		});
+  		});
 	</script>
 	
 </body>
