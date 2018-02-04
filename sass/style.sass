@@ -3,6 +3,26 @@
 @import url('Roboto Medium V1.css')
 @import url('RobotoSlab-Regular.css') //font-family: 'Roboto Slab'
 
+@keyframes example
+	0%
+		width: 0%
+		background-color: #ffffff
+	30%
+		width: 30%
+		background: #ff0000
+		transform: rotate(-3deg)
+	50%
+		width: 50%
+		background: #ffff00
+		transform: rotate(2deg)
+	75%
+		width: 20%
+		background: #0000ff
+		transform: rotate(-3deg)
+	100%
+		width: 60%
+		background-color: #ffffff
+
 *
 	box-sizing: border-box
 
@@ -29,14 +49,25 @@ body
 			color: #ffffff
 			padding-top: 8px
 			cursor: pointer
-			span
+			& > span
+				position: relative
 				border: 1px solid #ffffff
 				border-radius: 15px
 				float: left
 				height: 27px
 				line-height: 27px
 				padding-left: 7px
-				padding-right: 2px
+				padding-right: 25px
+				div
+					background: url('../img/united-kingdom.svg') no-repeat
+					position: absolute
+					top: 15%
+					right: 4%
+					width: 18px
+					height: 18px
+					float: right
+				.langRu
+					background: url('../img/russia.svg') no-repeat
 				svg
 					margin-left: 8px
 					width: 1.1vw
@@ -73,6 +104,23 @@ body
 //иконка поиска
 .search_icon
 	height: 30%
+	input
+		width: 60%
+		height: 28px
+		margin-left: 8%
+		margin-top: 12px
+		margin-right: -5%
+		float: left
+		border: 1px solid #5f9ea0
+		border-radius: 30px
+		padding-left: 3%
+		padding-right: 3%
+		display: none
+	.input_animation
+		animation-duration: 1.5s
+		animation-name: example
+	input:hover
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.25)
 	svg
 		margin-top: 14px
 		margin-left: 33.7%
@@ -94,6 +142,7 @@ body
 	ul
 		display: block
 		height: 70%
+		width: 100%
 		margin: 0 0
 		padding: 0 0
 		li
@@ -538,14 +587,16 @@ body
 		color: #474747
 		letter-spacing: -0.022em
 	p
-		margin-top: 50px
 		color: #474747
 		font-family: 'Roboto Lt'
 		font-size: 24px
 		letter-spacing: -0.012em
 		line-height: 1.5em
 		overflow: hidden
-		height: 300px
+	p:nth-child(2)
+		margin-top: 50px		
+	p:nth-child(3)
+		display: none
 	a
 		display: inline-block
 		margin-left: 4px
@@ -675,6 +726,9 @@ body
 		color: #6DBBEA
 	a:not(:hover)
 		transition: 0.7s all
+
+#feedback_sm
+	display: none
 
 .production
 	@extend .company
@@ -1089,23 +1143,57 @@ body
 			margin-top: 10vw
 			width: 45%
 			font-size: 4vw
+	.about
+		width: 45%
+	#feedback_sm
+		display: block
+		float: left
+		width: 40%
+		margin-top: 35px
+	#feedback_lg
+		display: none
 	.feedback
 		div
 			a
 				font-size: 3.5vw
+	.company
+		float: left
+		margin-left: 10%
+		padding-left: 0
+		margin-top: 20px
+		width: 40%
+	.production
+		float: left
+		width: 35%
+	.partners
+		width: 50%
+		display: block
 	.join_us
-		width: 70%
+		width: 100%
+		padding-right: 0
+		margin-top: 0
+		text-align: center
 		.join_us_title
+			display: block
+			width: 100%
 			font-size: 3vw
 			margin-right: 0
+		a
+			span
+				font-size: 6vw
 	.last_line
 		.all_rights
 			font-size: 2.5vw
 			margin-left: 0
+			display: block
+			text-align: center
 		.develop
 			font-size: 2.4vw
+			display: block
+			text-align: center
+			float: none
 		svg
-			margin-right: 1%
+			margin-right: 25%
 			width: 15vw
-			
+	
 		
